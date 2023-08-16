@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us Form</title>
+    <link rel="icon" href="contact2-icon.png">
+    <style>
+        body{
+            color:black;
+            background-color: #FFE6EB;
+        }
+        form:hover{
+            color:red;
+        }
+            h1{
+                color: blueviolet;
+            }
+        button{
+            color:blue;
+            margin-left:30%;
+            border:2px solid black;
+            border-radius: 5px;
+        }
+        input[type=text]:focus {
+             padding: 12px 20px;
+             margin: 8px;
+             box-sizing: border-box;
+             background-color:cornsilk;
+             color:blackhjghghv;
+        }
+        input[type=number]:focus {
+             padding: 12px 20px;
+             margin: 8px;
+             box-sizing: border-box;
+             background-color:cornsilk;
+             color:blackhjghghv;
+        }
+        input[type=email]:focus {
+             padding: 12px 20px;
+             margin: 8px;
+             box-sizing: border-box;
+             background-color:cornsilk;
+             color:blackhjghghv;
+        }
+        textarea{
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color:whitesmoke;
+            font-size: 16px;
+            resize: none;
+        }
+        </style>
+</head>
+<body>
+    <h1>Get in Touch</h1>
+    <form action="action.html" target="_blank">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="number">Mobile Number:</label>
+        <input type="number" id="name" name="name" required placeholder="Ex:0000-000-000"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Ex:xyz@gnail.com"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <p>Click the "Submit" button and the form-data will be sent to a page on the 
+            server called "action.html".</p>
+           <button>Submit</button>   
+    </form>
+</body>
+</html>
+    
